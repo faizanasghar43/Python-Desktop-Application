@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>24</horstretch>
+    <verstretch>24</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>486</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>486</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="tabletTracking">
+   <bool>true</bool>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ActionsContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>AYZ</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">image: url(:/test/Downloads/WhatsApp Image 2021-08-15 at 13.22.07.jpeg);</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>true</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Triangular</enum>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks</set>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>486</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::ActionsContextMenu</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuNew">
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/test/Downloads/11qnZ2RCZML._SX331_BO1,204,203,200_.jpg);
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>true</bool>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>true</bool>
+    </property>
+    <widget class="QMenu" name="menuNew_Entry">
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="tearOffEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>New Entry</string>
+     </property>
+     <addaction name="actionPant_Coat_2"/>
+     <addaction name="separator"/>
+     <addaction name="actionSuit_2"/>
+    </widget>
+    <widget class="QMenu" name="menuSearch">
+     <property name="title">
+      <string>Search</string>
+     </property>
+     <addaction name="actionPant_Coat_Size_Sheet"/>
+     <addaction name="separator"/>
+     <addaction name="actionSuit_Size_Sheet"/>
+    </widget>
+    <widget class="QMenu" name="menuDelete">
+     <property name="title">
+      <string>Delete</string>
+     </property>
+     <addaction name="actionPant_Coat_Size_Sheet_2"/>
+     <addaction name="separator"/>
+     <addaction name="actionSuit_Size_Sheet_2"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menuNew_Entry"/>
+    <addaction name="separator"/>
+    <addaction name="menuSearch"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="menuDelete"/>
+    <addaction name="separator"/>
+    <addaction name="actionOrders_List"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="exit_btn"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuExtras">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+image: url(:/test/Downloads/11qnZ2RCZML._SX331_BO1,204,203,200_.jpg);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Extras</string>
+    </property>
+    <addaction name="actionSend_Message"/>
+    <addaction name="separator"/>
+    <addaction name="actionToday_s_Deliveries"/>
+   </widget>
+   <addaction name="menuNew"/>
+   <addaction name="menuExtras"/>
+  </widget>
+  <action name="actionSearch">
+   <property name="text">
+    <string>Search </string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionPant_Coat">
+   <property name="text">
+    <string>Pant Coat</string>
+   </property>
+  </action>
+  <action name="actionSuit">
+   <property name="text">
+    <string>Suit</string>
+   </property>
+  </action>
+  <action name="actionPant_Coat_2">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Pant Coat</string>
+   </property>
+  </action>
+  <action name="actionSuit_2">
+   <property name="text">
+    <string>Suit</string>
+   </property>
+  </action>
+  <action name="actionPant_Coat_Size_Sheet">
+   <property name="text">
+    <string>Pant Coat Size Sheet</string>
+   </property>
+  </action>
+  <action name="actionSuit_Size_Sheet">
+   <property name="text">
+    <string>Suit Size Sheet</string>
+   </property>
+  </action>
+  <action name="actionPant_Coat_Size_Sheet_2">
+   <property name="text">
+    <string>Pant Coat Size Sheet</string>
+   </property>
+  </action>
+  <action name="exit_btn">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSuit_Size_Sheet_2">
+   <property name="text">
+    <string>Suit Size Sheet</string>
+   </property>
+  </action>
+  <action name="actionhello">
+   <property name="text">
+    <string>hello</string>
+   </property>
+  </action>
+  <action name="actionSend_Message">
+   <property name="text">
+    <string>Send Message </string>
+   </property>
+  </action>
+  <action name="actionToday_s_Deliveries">
+   <property name="text">
+    <string>Today's Deliveries</string>
+   </property>
+  </action>
+  <action name="actionOrders_List">
+   <property name="text">
+    <string>Orders List</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../Documents/Graphics/ayz_bg.qrc"/>
+ </resources>
+ <connections/>
+</ui>
